@@ -4,16 +4,6 @@
 		<view>
 			<text class="title">{{hitokotoText}}</text>
 		</view>
-
-		<uni-group title="分组1" top="20">
-            <view>分组1 的内容</view>
-            <view>分组1 的内容</view>
-        </uni-group>
-
-        <uni-group title="分组2">
-            <view>分组2 的内容</view>
-            <view>分组2 的内容</view>
-        </uni-group>
 	</view>
 </template>
 
@@ -38,7 +28,7 @@ export default {
 		}
 	},
 	onLoad() {
-		// this.init()
+		this.init()
 	},
 	methods: {
 		init () {
