@@ -11,6 +11,12 @@
 			"style": {
 				"navigationBarTitleText": "ToysTool - 首页"
 			}
+		},
+		{
+			"path": "pages/stepchange/index",
+			"style": {
+				"navigationBarTitleText": "ToysTool - 步数修改"
+			}
 		}
 	],
 	"globalStyle": {

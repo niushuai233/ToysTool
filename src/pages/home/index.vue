@@ -26,7 +26,7 @@
                             <uni-grid-item v-for="(item, index) in list" :index="index" :key="index">
                                 <view class="grid-item-box">
                                     <image :src="item.url" class="image" mode="aspectFill" />
-                                    <text class="text">{{ item.text }}</text>
+                                    <text class="text" style="font-size:14px;">{{ item.text }}</text>
                                 </view>
                             </uni-grid-item>
                         </uni-grid>
